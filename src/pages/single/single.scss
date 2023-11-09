@@ -1,0 +1,83 @@
+.single{
+    display: flex;
+    width: 100%;
+    .singleContainer{ 
+     flex: 6;
+     .top{
+        padding: 20px;
+        display: flex;
+        gap: 20px;
+        .left{
+            flex: 1;
+            box-shadow: 2px 3px 7px 1px rgba(201,201,201,0.47);
+            -webkit-box-shadow: 1px 2px 7px 1px rgba(0,0,0,0.47);
+            -moz-box-shadow: 2px 3px 3px 0px rgba(0,0,0,0.65);
+            border-radius: 4px;
+            padding: 20px;
+            position: relative;
+            .editButton{
+                padding: 5px;
+                position: absolute;
+                top: 0;
+                right: 0;
+                font-size: 12px;
+                color: #7451f8;
+                background-color: #7551f818;
+                cursor: pointer;
+                border-radius: 0px 0px 0 5px;
+            }
+            .item{
+                display: flex;
+                gap: 20px;
+                .itemImg{
+                    width: 100px;
+                    height: 100px;
+                    border-radius: 50%;
+                    object-fit: fill;
+                } 
+            .details{
+                .itemTitle{
+                    margin-bottom: 10px;
+                    color: #555;
+
+                }
+                .detailItem{
+                    font-weight: bold;
+                    color: gray;
+                    .itemKey{
+                        font-weight: bold;
+                        color: gray;
+                        margin-right: 5px;
+                    }
+                    .itemValue{
+                        font-weight: 300;
+                    }
+
+                }
+            }
+
+        }
+        
+    }
+        .right{
+            flex: 2;
+
+        }
+     }   
+     .bottom{
+         box-shadow: 2px 3px 7px 1px rgba(201,201,201,0.47);
+         -webkit-box-shadow: 1px 2px 7px 1px rgba(0,0,0,0.47);
+         -moz-box-shadow: 2px 3px 3px 0px rgba(0,0,0,0.65);
+         border-radius: 4px;
+         padding: 20px;
+         margin: 10px 20px ;
+         
+    }
+    .title{
+        font-size: 16px;
+        color: lightgray;
+        margin-bottom: 20px;
+    }
+}
+    
+}
